@@ -10,7 +10,7 @@ port = 10001
 successful_conection = False
 server_address = ('localhost', port)
 
-#Comprobamos que el puerto no esté y en caso de que lo esté
+#Comprobamos que el puerto no esté en uso y en caso de que lo esté
 #probamos otros puertos hasta encontrar uno que no esté empleado
 while not successful_conection:
     try:
